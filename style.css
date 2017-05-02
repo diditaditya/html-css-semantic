@@ -1,0 +1,296 @@
+/*header footer and the rest : futura-lt-w01-light
+title (brounis paris) : futuralt-w01-book
+sub-title (homemade brownies) : open sans condensed
+FAQ & Contact Use: proxima-n-w01-reg - regular*/
+
+/*font-family: 'Didact Gothic', sans-serif;
+font-family: 'Muli', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;*/
+
+* {
+  box-sizing: border-box;
+  /*border: 1px solid grey;*/
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.col-1 {width: 8.33%};
+.col-2 {width: 16.66%};
+.col-3 {width: 25%};
+.col-4 {width: 33.33%};
+.col-5 {width: 41.66%};
+.col-6 {width: 50%};
+.col-7 {width: 58.33%};
+.col-8 {width: 66.66%};
+.col-9 {width: 75%};
+.col-10 {width: 83.33%};
+.col-11 {width: 91.66%};
+.col-12 {width: 100%};
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.row {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.row::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+header {
+  margin: 35px 0px 35px 0px;
+  text-align: center;
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header li {
+  display: inline;
+  margin: 20px;
+}
+
+header li a {
+  text-decoration: none;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 16px;
+  color: #DABD8E;
+}
+
+header li a:hover {
+  color: #96938B;
+}
+
+#tegel {
+  height: 681px;
+  background-image: url('pictures/tegel.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.tegelDivider {
+  height: 227px;
+}
+
+#titleBox {
+  width: 495px;
+  height: 100%;
+  background-color: White;
+  padding: 5px;
+  margin: auto;
+}
+
+#innerBox {
+  height: 100%;
+  border: 1px solid #96938B;
+  margin: 0 auto;
+  padding: 0;
+  float: center;
+}
+
+#title {
+  margin: 0px 54px 0px 54px;
+  padding: 10px 0px 10px 0px;
+  border-bottom: 1px solid #DABD8E;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 50px;
+  letter-spacing: 5px;
+  color: #B0A171;
+}
+
+#subtitle {
+  margin-top: 5px;
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+  letter-spacing: 8px;
+  color: #B0A171;
+}
+
+.sectionTitle {
+  padding: 15px 0px 15px 0px;
+  text-align: center;
+  font-family: 'Didact Gothic', sans-serif;
+  letter-spacing: 10px;
+  font-size: 28px;
+  color: #B0A171;
+}
+
+#productShowcase {
+  width: 50%;
+  margin: auto;
+  padding: 5% 0% 5% 0%;
+}
+
+.productContainer {
+  width: 30.5%;
+  margin: 1%;
+  display: inline-block;
+}
+
+.productPic {
+  width: 100%;
+  height: auto;
+}
+
+/*#almond_brownies {
+  background-image: url("./pictures/almond_brounis1_500px.jpg");
+}
+
+#cheese_brownies {
+  background-image: url("./pictures/cheese_brounis1_500px.jpg");
+}
+
+#chocochip_brownies {
+  background-image: url("./pictures/chocochip_brounis1_500px.jpg");
+}*/
+
+.textCenter {
+  text-align: center;
+}
+
+.productName {
+  font-family: 'Didact Gothic', sans-serif;
+  color: #DABD8E;
+}
+
+.productPrice {
+  font-family: 'Didact Gothic', sans-serif;
+  color: #96938B;
+}
+
+.faqSection {
+  margin: auto;
+  padding: 2.5% 0% 2.5% 0%;
+  background-color: #B0A171;
+}
+
+.faqTitle {
+  color: White;
+}
+
+#FAQ {
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: white;
+  width: 25%;
+  margin: auto;
+}
+
+.fillerPic {
+  background-image: url('./pictures/background.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 648px;
+}
+
+.contactUs {
+  margin: auto;
+  padding: 2.5% 0% 5% 0%;
+  width: 35%;
+}
+
+.contactText {
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 3px;
+  color: #DABD8E;
+  margin: auto;
+}
+
+.contactForm {
+  margin: 5% 10% 5% 10%;
+  float: left;
+  width: 80%;
+}
+
+.smallInputContainer {
+  width: 50%;
+}
+
+.largeInputContainer {
+  width: 50%;
+}
+
+.allInputContainer {
+  display: inline-flex;
+  width: 100%;
+}
+
+.smallInput {
+  width: 98%;
+  height: 30px;
+  margin-bottom: 2px;
+  border: 1px solid #DABD8E;
+  border-radius: 0px;
+}
+
+.largeInput {
+  width: 100%;
+  height: 62px;
+  border: 1px solid #DABD8E;
+}
+
+textarea {
+  resize: none;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+.submitButton {
+  margin-top: 5px;
+  background-color: #B0A171;
+  border-radius: 0px;
+  border: 1px solid #DABD8E;
+  padding: 5px;
+  color: white;
+  font-size: 14px;
+  float: right;
+}
+
+footer {
+  background-color: #B0A171;
+  height: 200px;
+  margin-top: 5%;
+  padding-top: 2.5%;
+  bottom: 0;
+  text-align: center;
+}
+
+footer a {
+  font-family: 'Didact Gothic', sans-serif;
+  text-decoration: none;
+  color: white;
+}
+
+.linkToTop {
+  margin-top: 30px;
+  padding-top: 30px;
+}
+
+.socmedContainer {
+  margin-top: 30px;
+}
